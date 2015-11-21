@@ -21,13 +21,10 @@ setup(name='wagtail_extras',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-          'click'
+
       ],
       extras_require={
           'test': ['pytest'],
       },
-      entry_points="""
-      [console_scripts]
-      wagtail_extras=wagtail_extras.scripts.cli:cli
-      """
+      entry_points=""""""
       )
